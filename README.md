@@ -10,3 +10,12 @@ Right after learning about how statistics gets employed in Data Engineering, Her
  - Dropped rows that had 2 or more missing values in the considered IMPORTANT Attributes
  - Hot (cold) Deck Imputation for Age -> Imputed Age with median values after clustering by Diagnosed disease
  - ML imputation using Multiple Imputation by Chained Equations (scikit-learn)
+ Multivariate Bayesian Regression Imputation Performed for columns BMI, Blood_Pressure and Cholesterol
+ - Imputed Diagnosis and Notes with predicted value
+### Transformations
+ - Text formatting done on - Gender and Smoker
+ - Type Casting Done on - Cholesterol, Age, BMI and Blood_Pressure
+ - Date formatting on Admitted_Date
+ - Added Hospitalised_Days column and computed Distarched_Date
+ - Computed Fitness - based on BMI, Age and Gender
+ - Categorised Blood_Pressure
